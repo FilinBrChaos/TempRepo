@@ -13,7 +13,7 @@ export function CategoriesPage(){
     const [currentPage, setCurrentPage] = useState(1)
 
     const renderedCards = useMemo(() => {
-        if (filterCategory == viewAll) return cards
+        if (filterCategory === viewAll) return cards
         let result = cards.filter((card) => card.tegs.includes(filterCategory))
         return result
     },[filterCategory])

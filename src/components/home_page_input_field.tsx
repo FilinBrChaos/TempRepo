@@ -19,7 +19,7 @@ export function HomePageInputField(props: HomePageInputFieldProps){
         return () => {
           document.removeEventListener("keydown", listener);
         };
-      }, [text]);
+      }, [props, text]);
 
     const inputOnChangeHandle = (event: React.ChangeEvent<HTMLInputElement>) => {
         event.preventDefault()

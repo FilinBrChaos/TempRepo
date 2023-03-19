@@ -1,5 +1,4 @@
 import { readPost } from "../constants/pages_data"
-import cards from "../data/blogs_data.json"
 
 interface HomePageBlogCardRoundedProps {
     card: {

@@ -1,4 +1,3 @@
-import { MotionConfig } from "framer-motion";
 import { useState } from "react";
 import { headerLinks, logIn, signUp, webPageLogo } from "../constants/pages_data";
 import { NavbarAndroidMenuItem } from "./navbar_android_menu_item";
@@ -16,7 +15,7 @@ export function Navbar(){
         <div className="flex flex-col lg:flex-row bg-[#F9FAFB] drop-shadow-sm">
             <div className="px-3.5 flex lg:px-28 flex-row items-center justify-between w-screen h-20">
                 <div className="flex flex-row h-min">
-                    <img src={webPageLogo.icon} className="w-8 h-8 mr-2"></img>
+                    <img src={webPageLogo.icon} className="w-8 h-8 mr-2" alt=""></img>
                     <p className="text-base font-medium self-center mr-10">{webPageLogo.title}</p>
 
                     <div className="hidden lg:flex">

@@ -14,6 +14,7 @@ export const previous = "Previous"
 export const homePageSubHeaderTextData = {subTitle: "Resources", title: "Untitled blog", 
 description: "Tool and strategies modern teams need to help their companies grow.",
 privacyPolicyNotice: "We care about you data in our",
+// eslint-disable-next-line jsx-a11y/anchor-is-valid
 provacyPolicyLink: <a href="#" className=" underline">privacy policy</a>,
 buttonTitle: "Get started"}
 
