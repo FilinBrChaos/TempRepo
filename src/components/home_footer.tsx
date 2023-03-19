@@ -12,7 +12,7 @@ export function HomeFooter(props: HomeFooterProps) {
                 <div className="flex flex-col justify-between">
 
                     <div className="flex flex-row">
-                        <img src={props.light ? webPageLogo.icon : webPageLogo.iconLight} className="w-8 h-8 mr-2"></img>
+                        <img src={props.light ? webPageLogo.icon : webPageLogo.iconLight} className="w-8 h-8 mr-2" alt=""></img>
                         <p className={"text-base font-medium self-center mr-10" + (props.light ? " text-black" : " text-white")}>{webPageLogo.title}</p>
                     </div>
 
