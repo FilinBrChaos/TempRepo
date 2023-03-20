@@ -6,7 +6,6 @@ interface HomeFooterProps {
 }
 
 export function HomeFooter(props: HomeFooterProps) {
-    //change here
     return(
         <div className={"w-full py-12 px-4 lg:px-28 lg:pt-16 lg:pb-12" + (props.light ? " bg-[#F9FAFB]" : " bg-[#1D2939]")}>
             <div className="flex flex-col lg:flex-row lg:justify-between">
