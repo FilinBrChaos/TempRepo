@@ -7,7 +7,7 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <HomePage></HomePage>
+      element: <HomePage/>
     },
     {
       path: "/categories",
@@ -20,7 +20,7 @@ function App() {
   ])
   return (
     <>
-      <RouterProvider router={router}></RouterProvider>
+      <RouterProvider router={router}/>
     </>
   );
 }
