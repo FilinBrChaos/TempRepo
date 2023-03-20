@@ -11,19 +11,11 @@ function App() {
     },
     {
       path: "/categories",
-      element: <CategoriesPage/>
+      element: <CategoriesPage></CategoriesPage>
     },
     {
-      path: "/categories/newCategories",
-      element: <CategoriesPage/>
-    },
-    {
-      path: "/categories/newCategories/theMostNewCategories",
-      element: <CategoriesPage/>
-    },
-    {
-      path: "/categories/oldCategories",
-      element: <CategoriesPage/>
+      path: "/badPath",
+      element: <CategoriesPage></CategoriesPage>
     }
   ])
   return (
