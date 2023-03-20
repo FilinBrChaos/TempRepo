@@ -7,16 +7,28 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <HomePage></HomePage>
+      element: <HomePage/>
     },
     {
       path: "/categories",
-      element: <CategoriesPage></CategoriesPage>
+      element: <CategoriesPage/>
+    },
+    {
+      path: "/categories/newCategories",
+      element: <CategoriesPage/>
+    },
+    {
+      path: "/categories/newCategories/theMostNewCategories",
+      element: <CategoriesPage/>
+    },
+    {
+      path: "/categories/oldCategories",
+      element: <CategoriesPage/>
     }
   ])
   return (
     <>
-      <RouterProvider router={router}></RouterProvider>
+      <RouterProvider router={router}/>
     </>
   );
 }
