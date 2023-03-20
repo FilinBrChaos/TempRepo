@@ -7,6 +7,8 @@ interface CardPagesSwitcherProps {
     setCurrentPage: React.Dispatch<React.SetStateAction<number>>
 }
 
+// сommit here
+
 export function CardPagesSwitcher(props: CardPagesSwitcherProps){
     const range = 2
     let numberButtonsRow = []
