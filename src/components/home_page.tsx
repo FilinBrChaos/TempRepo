@@ -38,6 +38,8 @@ export function HomePage(){
         return {title: title, onClickHandler: () => { setSortPattern(homePageSortDropdownButtonsTitles[index]) }}
     })
 
+    //some changes in same file
+
     return(
         <div>
             <Navbar></Navbar>
