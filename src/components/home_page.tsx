@@ -15,6 +15,7 @@ export function HomePage(){
     const [sortPattern, setSortPattern] = useState(homePageSortDropdownButtonsTitles[0])
     const [searchPattern, setSearchPattern] = useState("")
 
+    //another change here
     let renderedCards = useMemo(() => {
         let result = cards
         if (searchPattern !== "") result = cards.filter((card) => card.title.includes(searchPattern))
