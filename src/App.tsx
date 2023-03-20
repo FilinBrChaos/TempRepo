@@ -20,11 +20,15 @@ function App() {
     {
       path: "/categories/newCategories/theMostNewCategories",
       element: <CategoriesPage/>
+    },
+    {
+      path: "/categories/oldCategories",
+      element: <CategoriesPage/>
     }
   ])
   return (
     <>
-      <RouterProvider router={router}>
+      <RouterProvider router={router}/>
     </>
   );
 }
