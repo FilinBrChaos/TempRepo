@@ -12,6 +12,10 @@ function App() {
     {
       path: "/categories",
       element: <CategoriesPage></CategoriesPage>
+    },
+    {
+      path: "/badPath",
+      element: <CategoriesPage></CategoriesPage>
     }
   ])
   return (
